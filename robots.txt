@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /en.html
+Allow: /sitemap.xml
+
+# Set crawl delay to prevent server overload
+Crawl-delay: 10
+
+# Specify sitemap location
+Sitemap: https://laboratoirealamal.me/sitemap.xml
