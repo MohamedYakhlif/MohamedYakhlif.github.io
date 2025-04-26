@@ -755,8 +755,7 @@ section {padding: 5rem 0; position: relative;}
 
 /* Call to action section */
 .cta-section {
-  background: linear-gradient(rgba(0, 123, 127, 0.9), rgba(0, 123, 127, 0.9)),
-    url("images/cta-background.jpg") no-repeat center/cover;
+  background: linear-gradient(rgba(0, 123, 127, 0.9), rgba(0, 123, 127, 0.9));
   color: var(--white-color);
   text-align: center;
   padding: 5rem 0;
