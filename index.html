@@ -56,12 +56,42 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Organization",
+        "@type": "MedicalBusiness",
         "name": "Laboratoire AL AMAL",
         "url": "https://www.laboratoirealamal.me",
-        "logo": "https://www.laboratoirealamal.me/favicon-32x32.png",
+        "logo": "https://www.laboratoirealamal.me/logo.png",
+        "image": "https://www.laboratoirealamal.me/logo.png",
+        "description": "Services de diagnostic médical de premier ordre à Meknès avec équipement de pointe et personnel expert.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "175 Avenue des Forces Armées Royales",
+          "addressLocality": "Meknès",
+          "addressRegion": "Meknès-Tafilalet",
+          "postalCode": "50000",
+          "addressCountry": "MA"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "33.897213",
+          "longitude": "-5.538740"
+        },
+        "telephone": "+212628836501",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "07:30",
+            "closes": "18:30"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Saturday", "Sunday"],
+            "opens": "08:00",
+            "closes": "18:00"
+          }
+        ],
         "sameAs": [
-          "https://web.facebook.com/profile.php?id=61550074150831", 
+          "https://web.facebook.com/profile.php?id=61550074150831",
           "https://www.instagram.com/labo_alamal/"
         ]
       }
